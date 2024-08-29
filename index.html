@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Gratuito ao Curso ENEM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Garanta Seu Acesso ao Curso Grátis para o ENEM!</h1>
+            <p>Receba 2 aulas exclusivas e um eBook com dicas infalíveis para arrasar no ENEM!</p>
+        </header>
+        <div class="content">
+            <form id="capture-form" action="save_email.php" method="POST">
+                <label for="email">Insira seu e-mail para acesso:</label>
+                <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+                <button type="submit">Quero Acessar o Curso!</button>
+            </form>            
+            <div id="success-message" class="hidden">
+                <p>Obrigado! Verifique seu e-mail para acessar o curso e baixar o eBook.</p>
+            </div>
+        </div>
+        <section class="benefits">
+            <h2>O Que Você Vai Ganhar:</h2>
+            <ul>
+                <li> Aulas exclusivas com os melhores professores.</li>
+                <li> eBook com dicas práticas para melhorar seus estudos.</li>
+                <li> Estratégias comprovadas para aumentar sua pontuação no ENEM.</li>
+                <li> Conteúdo totalmente gratuito e de alta qualidade.</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Garantimos 100% de privacidade. Suas informações não serão compartilhadas.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
